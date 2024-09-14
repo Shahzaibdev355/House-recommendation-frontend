@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import React from 'react';
-import "../assets/css/leaf.css";
+//import "../assets/css/leaf.css";
 
 const MapComponent = ({ latitude, longitude, address }) => {
 
