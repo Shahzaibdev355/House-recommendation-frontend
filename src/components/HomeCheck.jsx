@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-// import Button from "react-bootstrap/Button";
-// import Col from "react-bootstrap/Col";
-// import Form from "react-bootstrap/Form";
-// import Row from "react-bootstrap/Row";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import MapComponent from "./MapComponent";
 
-import "leaflet/dist/leaflet.css";
+//import "leaflet/dist/leaflet.css";
 
 import L from "leaflet";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
