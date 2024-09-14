@@ -88,7 +88,7 @@ const HomeCheck = () => {
 
   return (
     <>
-      <h3>House Recommendation System</h3>
+      <h3>House Recommendation System For New York</h3>
 
       <div className="search-header shadow p-4 mt-4">
         <form onSubmit={handleSubmit}>
