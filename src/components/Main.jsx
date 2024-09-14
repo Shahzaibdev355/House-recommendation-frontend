@@ -1,5 +1,5 @@
 import "../assets/css/style.css";
-// import "../assets/css/leaf.css";
+import "leaflet/dist/leaflet.css";
 
 import { Route, Routes } from "react-router-dom";
 import HomeCheck from "./HomeCheck";
