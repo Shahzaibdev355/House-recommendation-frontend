@@ -55,7 +55,7 @@ const HomeCheck = () => {
     setLoadingResults(true); // Show loader when request starts
 
     axios
-      .post("https://double-georgena-shahzaibdev355-376d2bcf.koyeb.app/predict", formData)
+      .post("https://subtle-aryn-shahzaibdev355-e83e2706.koyeb.app/predict", formData)
       .then((response) => {
         // const sortedResults = response.data.sort((a, b) => a.Price - b.Price);
         // setResults(sortedResults);
@@ -73,7 +73,7 @@ const HomeCheck = () => {
     setLoading(true); // Set loading to true before fetching data
 
     axios
-      .get("https://double-georgena-shahzaibdev355-376d2bcf.koyeb.app/states")
+      .get("https://subtle-aryn-shahzaibdev355-e83e2706.koyeb.app/states")
       .then((response) => {
         // Directly use response.data since axios handles JSON parsing
         const stateList = response.data;
